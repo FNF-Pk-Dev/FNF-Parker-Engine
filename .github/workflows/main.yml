@@ -35,7 +35,7 @@ jobs:
         uses: nttld/setup-ndk@main
         id: setup-ndk
         with:
-          ndk-version: r27c
+          ndk-version: r21b
 
      # - name: Setup Android SDK
     #  uses: android-actions/setup-android@main
