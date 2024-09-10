@@ -25,12 +25,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Setup Android NDK
-        uses: nttld/setup-ndk@main
-        id: setup-ndk
-        with:
-          ndk-version: r21e
-
       - name: Setup Java JDK
         uses: actions/setup-java@main
         with:
@@ -59,8 +53,8 @@ jobs:
       - name: Install Haxelib
         run: |
           haxelib setup ~/haxelib
-          haxelib git hxcpp https://github.com/mcagabe19-stuff/hxcpp.git > /dev/null
-          haxelib install lime 8.0.2
+          haxelib git hxcpp https://github.com/mcagabe19-stuff/hxcpp.git
+          haxelib git lime https://github.com/mcagabe19-stuff/lime
           haxelib install openfl 9.2.2
           haxelib --never install flixel
           haxelib run lime setup flixel
