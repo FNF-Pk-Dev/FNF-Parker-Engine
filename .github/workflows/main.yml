@@ -69,6 +69,7 @@ jobs:
           haxelib install flixel-addons 3.0.2
           haxelib install tjson
           haxelib install hxjsonast
+          haxelib install hxluajit
           haxelib install hscript
           haxelib install hxvlc 1.7.1
           haxelib git fnf-modcharting-tools https://github.com/FNF-Pk-Dev/FNF-Modcharting-Tools-Fix
@@ -77,7 +78,7 @@ jobs:
           haxelib git hxCodec https://github.com/FNF-Pk-Dev/hxCodec.git
           haxelib git hxpy https://github.com/FNF-Pk-Dev/hxpy.git
           haxelib git linc_luajit https://github.com/mcagabe19-stuff/linc_luajit-rewriten
-          haxelib git lscript https://github.com/FNF-Pk-Dev/lscript
+          haxelib git lscript https://github.com/FNF-Pk-Dev/lscript 8be201f52d699ea202d89372391b2afacd240aa2
           haxelib git extension-androidtools https://github.com/FNF-Pk-Dev/extension-androidtools
           haxelib install hxcpp-debug-server
           haxelib list
