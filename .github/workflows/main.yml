@@ -41,9 +41,9 @@ jobs:
     #  uses: android-actions/setup-android@main
 
       - name: Setup Haxe
-        uses: krdlab/setup-haxe@master
+        uses: krdlab/setup-haxe@v1.2.0
         with:
-          haxe-version: 4.2.5
+          haxe-version: 4.3.6
 
       - name: Restore Previous Cache
         id: cache-debug-build-android-restore
