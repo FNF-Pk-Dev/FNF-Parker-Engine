@@ -31,6 +31,12 @@ jobs:
           distribution: 'temurin'
           java-version: 17
 
+      - name: Setup Android NDK
+        uses: nttld/setup-ndk@main
+        id: setup-ndk
+        with:
+          ndk-version: r27c
+
      # - name: Setup Android SDK
     #  uses: android-actions/setup-android@main
 
