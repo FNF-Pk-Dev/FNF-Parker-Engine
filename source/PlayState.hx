@@ -935,7 +935,7 @@ class PlayState extends MusicBeatState
 		// STAGE SCRIPTS
 		#if (MODS_ALLOWED && LUA_ALLOWED)
 		startLuasOnFolder('stages/' + curStage + '.lua');
-		startLsOnFolder('stages/' + curStage + '.lua');
+		startLsOnFolder('stages/' + curStage + '.lscript');
 		#end
 
 		var gfVersion:String = SONG.gfVersion;
@@ -1334,7 +1334,7 @@ class PlayState extends MusicBeatState
 				{
 					if(file.endsWith('.lua') && !filesPushed.contains(file))
 					{
-						luaArray.push(new FunkinLScri(folder + file));
+						luaArray.push(new FunkinLua(folder + file));
 						filesPushed.push(file);
 					}
 					if(file.endsWith('.lscript') && !filesPushed.contains(file))
