@@ -1,4 +1,4 @@
-package;
+/*package;
 
 #if LUA_ALLOWED
 import lscript.LScript;
@@ -125,4 +125,4 @@ class FunkinLScript
 	return FunkinLua.Function_Continue;
 	}
 	
-}
+}*/
