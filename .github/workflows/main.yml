@@ -68,7 +68,7 @@ jobs:
           haxelib install flixel-ui
           haxelib install flixel-addons 3.0.2
           haxelib install tjson
-          haxelib install hxjsonas
+          haxelib install hxjsonast
           haxelib install hscript
           haxelib install hxvlc 1.7.1
           haxelib git fnf-modcharting-tools https://github.com/FNF-Pk-Dev/FNF-Modcharting-Tools-Fix
